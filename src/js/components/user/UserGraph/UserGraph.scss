@@ -1,0 +1,64 @@
+.graph {
+    margin: 25px;
+    border-radius: 15px;
+    background: #fff;
+    &__container {
+        width: 100%;
+        min-width: 90%;
+        max-width: var(--size-max-width);
+        margin: 0 auto;
+        padding: 25px;
+    }
+    &__title {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+    &__figure {
+        margin-top: 50px;
+        width: 100%;
+        border-left: 1px solid var(--color-gray3);
+        border-bottom: 1px solid var(--color-gray3);
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        &-stick {
+            background: var(--color-gray2);
+            width: 20px;
+            &.active {
+                background: var(--color-main);
+            }
+        }
+    }
+    &__category {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__point {
+        margin-top: 30px;
+        display: flex;
+        width: 100%;
+        & > div {
+            padding-top: 2px;
+            padding-bottom: 20px;
+            &:first-child {
+                border-right: 1px solid var(--color-gray2);
+            }
+            flex: 1;
+            text-align: center;
+            & > span {
+                font-size: 16px;
+                color: var(--color-gray3);
+            }
+            & > p {
+                font-size: 30px;
+                font-weight: 500;
+                margin-top: 15px;
+            }
+        }
+    }
+}
