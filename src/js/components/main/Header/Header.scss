@@ -1,0 +1,19 @@
+.header {
+    z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.06);
+    &__container {
+        width: 100%;
+        min-width: var(--size-min-width);
+        max-width: var(--size-max-width);
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+     &__logo {
+         width: auto;
+         height: 45px;
+     }
+}
