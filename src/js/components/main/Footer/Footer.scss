@@ -1,0 +1,22 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: var(--color-gray);
+    &__container {
+        width: 100%;
+        min-width: var(--size-min-width);
+        max-width: var(--size-max-width);
+        margin: 0 auto;
+        padding: 24px 24px 35px;
+        font-weight: 300;
+        color: #757575;
+    }
+    &__title {
+        font-size: 14px;
+    }
+    &__description {
+        width: 100%;
+        margin-top: 12px;
+    }
+}
