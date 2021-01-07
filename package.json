@@ -1,0 +1,29 @@
+{
+  "name": "spa-example",
+  "version": "1.0.0",
+  "description": "Javascript를 이용한 SPA 만들기",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyegyeong310/spa-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyegyeong310/spa-example/issues"
+  },
+  "homepage": "https://github.com/Hyegyeong310/spa-example#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.30.0"
+  },
+  "dependencies": {
+    "src": "^1.1.2"
+  }
+}
